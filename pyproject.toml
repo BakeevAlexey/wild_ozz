@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "wild-ozz"
+version = "0.1.0"
+description = ""
+authors = ["bakeev-alexey <abakeev438@gmail.com>"]
+readme = "README.md"
+packages = [{include = "wild_ozz"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
