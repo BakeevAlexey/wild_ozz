@@ -8,6 +8,8 @@ packages = [{include = "wild_ozz"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+fastapi = "^0.105.0"
+sqlalchemy = "^2.0.23"
 
 
 [build-system]
